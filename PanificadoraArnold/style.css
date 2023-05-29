@@ -104,20 +104,21 @@ transform: rotate(-88.98deg);
 
 .pao{
     position: absolute;
-    width: 1624px;
-    height: 1220px;
+    width: 1525px;
+    height: 1184px;
     left: -82px;
     top: 16px;
     margin: 0;
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 18.89%, rgba(103, 52, 18, 0.2) 75.41%), url(.jpg);
     filter: blur(10px);
+
+    
 }
 
 .pan{
-    position: absolute;
-width: 1000px;
-height: 53px;
-left: 315px;
+position:relative;
+align-items: center;
+text-align: center;
 top: 305px;
 
 font-family: 'DM Serif Text';
@@ -129,7 +130,7 @@ text-align: center;
 
 color: #F5751F;
 
-z-index: 98;
+z-index: 97;
 
 }
 
@@ -148,3 +149,65 @@ filter: blur(45px);
 border-radius: 66px;
 }
 
+.evento{
+    position: absolute;
+width: 1440px;
+height: 1184px;
+left: 0px;
+top: 983px;
+
+background: #281406;
+}
+
+.titu{
+    
+    text-align: center;
+    top:1000px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 69px;
+
+color: #F5751F;
+}
+
+.texto{
+    font-family: 'Antic Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+text-align: center;
+
+color: #FFC9A5;
+
+}
+
+.var{
+    
+    top: 70px;
+
+    align-items:center;
+    position: relative;
+}
+
+.texto2{
+       
+    
+    font-family: 'Antic Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    
+    color: #FFC9A5;
+    
+    
+}
